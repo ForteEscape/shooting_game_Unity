@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: 887c637e421b7b44d891a7adefe241f9
+timeCreated: 1519999098
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_0
+    21300002: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_1
+    21300004: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_2
+    21300006: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_3
+    21300008: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_4
+    21300010: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_5
+    21300012: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_6
+    21300014: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_7
+    21300016: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_8
+    21300018: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_9
+    21300020: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_10
+    21300022: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_11
+    21300024: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_12
+    21300026: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_13
+    21300028: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_14
+    21300030: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_15
+    21300032: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_16
+    21300034: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_17
+    21300036: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_18
+    21300038: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_19
+    21300040: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_20
+    21300042: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_21
+    21300044: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_22
+    21300046: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_23
+    21300048: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_24
+    21300050: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_25
+    21300052: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_26
+    21300054: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_27
+    21300056: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_28
+    21300058: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_29
+    21300060: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_30
+    21300062: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_31
+    21300064: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_32
+    21300066: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_33
+    21300068: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_34
+    21300070: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_35
+    21300072: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_36
+    21300074: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_37
+    21300076: reimu_hakurei___touhou_6_sprite_sheet_by_gabrieldrawingsxd-d7e332q_38
+    21300078: Sprite_Player_0
+    21300080: Sprite_Player_1
+    21300082: Sprite_Player_2
+    21300084: Sprite_Player_3
+    21300086: Sprite_Player_4
+    21300088: Sprite_Player_5
+    21300090: Sprite_Player_6
+    21300092: Sprite_Player_7
+    21300094: Sprite_Player_8
+    21300096: Sprite_Player_9
+    21300098: Sprite_Player_10
+    21300100: Sprite_Player_11
+    21300102: Sprite_Player_12
+    21300104: Sprite_Player_13
+    21300106: Sprite_Player_14
+    21300108: Sprite_Player_15
+    21300110: Sprite_Player_16
+    21300112: Sprite_Player_17
+    21300114: Sprite_Player_18
+    21300116: Sprite_Player_19
+    21300118: Sprite_Player_20
+    21300120: Sprite_Player_21
+    21300122: Sprite_Player_22
+    21300124: Sprite_Player_23
+    21300126: Sprite_Player_24
+    21300128: Sprite_Player_25
+    21300130: Sprite_Player_26
+    21300132: Sprite_Player_27
+    21300134: Sprite_Player_28
+    21300136: Sprite_Player_29
+    21300138: Sprite_Player_30
+    21300140: Sprite_Player_31
+    21300142: Sprite_Player_32
+    21300144: Sprite_Player_33
+    21300146: Sprite_Player_34
+    21300148: Sprite_Player_35
+    21300150: Sprite_Player_36
+    21300152: Sprite_Player_37
+    21300154: Sprite_Player_38
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Player_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 249
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 249
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 249
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 249
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 249
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 249
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 249
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 249
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 201
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 202
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 204
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 204
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 204
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 204
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 203
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 204
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 153
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 154
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 156
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 156
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 155
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 156
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 156
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 156
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 76
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 82
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_30
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 82
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 82
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_36
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Player_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 38
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

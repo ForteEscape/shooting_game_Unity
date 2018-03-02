@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlaneControll : MonoBehaviour {
     public float FlightMoveSpeed = 250.0f;
-    public float RotateAngle = 20.0f;
+    //public float RotateAngle = 20.0f;
+
+    float playerBoundaryRadius = 0.5f;
 
 	// Use this for initialization
 	void Start () {
@@ -18,13 +20,22 @@ public class PlaneControll : MonoBehaviour {
 
     void MoveCtrl()
     {
-        float astMove = FlightMoveSpeed * Time.deltaTime;
+    
+        Vector3 ViewPosition = Camera.main.WorldToViewportPoint(transform.position);
 
-        float moveX = astMove * Input.GetAxis("Horizontal");
-        float moveY = astMove * Input.GetAxis("Vertical");
-        float rotateX = Input.GetAxis("Horizontal");
+        float distanceX = Input.GetAxis("Horizontal") * Time.deltaTime * FlightMoveSpeed;
+        float distanceY = Input.GetAxis("Vertical") * Time.deltaTime * FlightMoveSpeed;
 
-        transform.Translate(moveX, moveY, 0, Space.World);
-        transform.eulerAngles = new Vector3(0, -rotateX * RotateAngle, 0);
+        this.gameObject.transform.Translate(distanceX, 0, 0);
+        this.gameObject.transform.Translate(0, distanceY, 0);
+
+        //ViewPosition.x = Mathf.Clamp01(ViewPosition.x);
+        //ViewPosition.y = Mathf.Clamp01(ViewPosition.y);
+
+        //Vector3 worldPosition = Camera.main.ViewportToWorldPoint(ViewPosition);
+        //transform.position = worldPosition;
+
+        //transform.position = position;
+
     }
 }
