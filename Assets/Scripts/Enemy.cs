@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
     public int enemyHP = 20;
+    int power;
 
 	// Use this for initialization
 	void Start () {
-		
+        power = GameObject.Find("Player").GetComponent<Player>().bulletPower;
 	}
 	
 	// Update is called once per frame
@@ -22,7 +23,12 @@ public class Enemy : MonoBehaviour {
     {
         if (other.tag.Equals("Bullet"))
         {
-            //enemyHP -= ;
+            enemyHP -= power;
         }
+    }
+
+    void OnBecameInvisible()
+    {
+        Destroy(this.gameObject);
     }
 }
