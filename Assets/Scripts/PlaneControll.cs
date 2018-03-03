@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlaneControll : MonoBehaviour {
     public float FlightMoveSpeed = 250.0f;
+    public float FlightMoveSpeedSlow = 125.0f;
+    float distanceX;
+    float distanceY;
 
     //public float RotateAngle = 20.0f;
 
@@ -24,8 +27,16 @@ public class PlaneControll : MonoBehaviour {
     
         Vector3 ViewPosition = Camera.main.WorldToViewportPoint(transform.position);
 
-        float distanceX = Input.GetAxis("Horizontal") * Time.deltaTime * FlightMoveSpeed;
-        float distanceY = Input.GetAxis("Vertical") * Time.deltaTime * FlightMoveSpeed;
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            distanceX = Input.GetAxis("Horizontal") * Time.deltaTime * FlightMoveSpeedSlow;
+            distanceY = Input.GetAxis("Vertical") * Time.deltaTime * FlightMoveSpeedSlow;
+        }
+        else
+        {
+            distanceX = Input.GetAxis("Horizontal") * Time.deltaTime * FlightMoveSpeed;
+            distanceY = Input.GetAxis("Vertical") * Time.deltaTime * FlightMoveSpeed;
+        }
 
         this.gameObject.transform.Translate(distanceX, 0, 0);
         this.gameObject.transform.Translate(0, distanceY, 0);
