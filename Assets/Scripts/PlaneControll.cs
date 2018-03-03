@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlaneControll : MonoBehaviour {
     public float FlightMoveSpeed = 250.0f;
+
     //public float RotateAngle = 20.0f;
 
     float playerBoundaryRadius = 0.5f;
@@ -37,13 +38,5 @@ public class PlaneControll : MonoBehaviour {
 
         //transform.position = position;
 
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag.Equals("enemy"))
-        {
-            Destroy(this.gameObject);
-        }
     }
 }
