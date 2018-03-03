@@ -9,9 +9,13 @@ public class Player : MonoBehaviour {
 
     void Start()
     {
-        lifePlayer = 3;
-        bulletPower = 2;
-        lifePoint = 0;
+
+    }
+
+    void Update()
+    {
+        print("bullet power : ");
+        print(bulletPower);
     }
 
 }

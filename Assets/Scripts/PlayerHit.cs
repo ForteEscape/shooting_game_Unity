@@ -13,12 +13,17 @@ public class PlayerHit : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
-        if (other.gameObject.tag.Equals("powerItem"))
+        if (other.gameObject.tag.Equals("Item_power"))
         {
-            GetComponent<Player>().bulletPower += 5;
+            GetComponent<Player>().bulletPower += 2;
         }
 
-        if (other.gameObject.tag.Equals("lifeItem"))
+        if (other.gameObject.tag.Equals("item_powerBig"))
+        {
+            GetComponent<Player>().bulletPower += 10;
+        }
+
+        if (other.gameObject.tag.Equals("item_point"))
         {
             GetComponent<Player>().lifePoint++;
 

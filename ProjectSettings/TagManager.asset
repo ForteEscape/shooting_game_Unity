@@ -7,6 +7,9 @@ TagManager:
   - enemy
   - player
   - Bullet
+  - item_power
+  - item_powerBig
+  - item_point
   layers:
   - Default
   - TransparentFX

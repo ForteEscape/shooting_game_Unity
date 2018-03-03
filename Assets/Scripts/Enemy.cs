@@ -13,10 +13,7 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(enemyHP <= 0)
-        {
-            Destroy(this.gameObject);
-        }
+
 	}
 
     void OnTriggerEnter2D(Collider2D other)
@@ -24,6 +21,11 @@ public class Enemy : MonoBehaviour {
         if (other.tag.Equals("Bullet"))
         {
             enemyHP -= power;
+
+            if (enemyHP <= 0)
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 

@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Enemy_Spqwn.cs" />
      <Compile Include="Assets\Scripts\EnemyHP.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\item.cs" />
      <Compile Include="Assets\Scripts\PlaneControll.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerHit.cs" />
