@@ -30,13 +30,12 @@ public class PlaneControll : MonoBehaviour {
         this.gameObject.transform.Translate(distanceX, 0, 0);
         this.gameObject.transform.Translate(0, distanceY, 0);
 
-        //ViewPosition.x = Mathf.Clamp01(ViewPosition.x);
-        //ViewPosition.y = Mathf.Clamp01(ViewPosition.y);
+        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
+        viewPos.x = Mathf.Clamp01(viewPos.x);
+        viewPos.y = Mathf.Clamp01(viewPos.y);
 
-        //Vector3 worldPosition = Camera.main.ViewportToWorldPoint(ViewPosition);
-        //transform.position = worldPosition;
-
-        //transform.position = position;
+        Vector3 worldPos = Camera.main.ViewportToWorldPoint(viewPos);
+        transform.position = worldPos;
 
     }
 }

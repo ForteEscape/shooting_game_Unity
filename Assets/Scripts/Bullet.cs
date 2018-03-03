@@ -14,6 +14,20 @@ public class Bullet : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         float BulletMoveY = BulletMoveSpeed * Time.deltaTime;
+
         transform.Translate(0, BulletMoveY, 0);
 	}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag.Equals("enemy"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnBecameInvisible()
+    {
+        Destroy(this.gameObject);
+    }
 }

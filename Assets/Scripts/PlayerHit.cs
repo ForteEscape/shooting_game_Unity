@@ -10,5 +10,15 @@ public class PlayerHit : MonoBehaviour {
         {
             Destroy(this.gameObject);
         }
+
+        if (other.gameObject.tag.Equals("powerItem"))
+        {
+
+        }
+
+        if (other.gameObject.tag.Equals("lifeItem"))
+        {
+
+        }
     }
 }
