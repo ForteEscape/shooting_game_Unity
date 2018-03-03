@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        power = GameObject.Find("Player").GetComponent<Player>().bulletPower;
+        power = GameObject.Find("PlayerManager").GetComponent<PlayerManager>().bulletPower;
 	}
 	
 	// Update is called once per frame

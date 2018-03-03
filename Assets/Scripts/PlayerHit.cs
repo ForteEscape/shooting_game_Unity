@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHit : MonoBehaviour {
 
-    private Player player;
+    private PlayerManager player;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,23 +15,28 @@ public class PlayerHit : MonoBehaviour {
 
         if (other.gameObject.tag.Equals("Item_power"))
         {
-            GetComponent<Player>().bulletPower += 2;
+            GameObject.Find("PlayerManager").GetComponent<PlayerManager>().bulletPower += 2;
         }
 
         if (other.gameObject.tag.Equals("item_powerBig"))
         {
-            GetComponent<Player>().bulletPower += 10;
+            GameObject.Find("PlayerManager").GetComponent<PlayerManager>().bulletPower += 10;
         }
 
         if (other.gameObject.tag.Equals("item_point"))
         {
-            GetComponent<Player>().lifePoint++;
+            GameObject.Find("PlayerManager").GetComponent<PlayerManager>().lifePoint++;
 
-            if(GetComponent<Player>().lifePoint >= 50)
+            if(GameObject.Find("PlayerManager").GetComponent<PlayerManager>().lifePoint >= 50)
             {
-                GetComponent<Player>().lifePlayer++;
-                GetComponent<Player>().lifePoint = 0;
+                GameObject.Find("PlayerManager").GetComponent<PlayerManager>().PlayerLife++;
+                GameObject.Find("PlayerManager").GetComponent<PlayerManager>().lifePoint = 0;
             }
+        }
+
+        if (other.gameObject.tag.Equals("item_Life"))
+        {
+            GameObject.Find("PlayerManager").GetComponent<PlayerManager>().PlayerLife++;
         }
     }
 }

@@ -10,6 +10,8 @@ TagManager:
   - item_power
   - item_powerBig
   - item_point
+  - item_Life
+  - PlayerManager
   layers:
   - Default
   - TransparentFX
