@@ -12,6 +12,7 @@ TagManager:
   - item_point
   - item_Life
   - PlayerManager
+  - Btn_Setting
   layers:
   - Default
   - TransparentFX
