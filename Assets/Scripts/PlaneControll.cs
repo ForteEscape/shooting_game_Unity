@@ -38,4 +38,12 @@ public class PlaneControll : MonoBehaviour {
         //transform.position = position;
 
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("enemy"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
