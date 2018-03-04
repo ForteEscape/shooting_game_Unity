@@ -51,20 +51,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Background_scroll.cs" />
-     <Compile Include="Assets\Scripts\Btn_Quit.cs" />
-     <Compile Include="Assets\Scripts\Btn_Setting.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Enemy_Spqwn.cs" />
-     <Compile Include="Assets\Scripts\EnemyHP.cs" />
-     <Compile Include="Assets\Scripts\EnemyMove.cs" />
-     <Compile Include="Assets\Scripts\item.cs" />
-     <Compile Include="Assets\Scripts\PlaneControll.cs" />
-     <Compile Include="Assets\Scripts\PlayerHit.cs" />
-     <Compile Include="Assets\Scripts\PlayerManager.cs" />
-     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+     <Compile Include="Assets\Btn_Option.cs" />
+     <Compile Include="Assets\Btn_Start.cs" />
+     <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
+     <Compile Include="Assets\Scripts\inGame\Btn_Quit.cs" />
+     <Compile Include="Assets\Scripts\inGame\Btn_Setting.cs" />
+     <Compile Include="Assets\Scripts\inGame\Bullet.cs" />
+     <Compile Include="Assets\Scripts\inGame\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\inGame\Enemy.cs" />
+     <Compile Include="Assets\Scripts\inGame\Enemy_Spqwn.cs" />
+     <Compile Include="Assets\Scripts\inGame\EnemyHP.cs" />
+     <Compile Include="Assets\Scripts\inGame\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\inGame\item.cs" />
+     <Compile Include="Assets\Scripts\inGame\PlaneControll.cs" />
+     <Compile Include="Assets\Scripts\inGame\PlayerHit.cs" />
+     <Compile Include="Assets\Scripts\inGame\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\inGame\PlayerShoot.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
