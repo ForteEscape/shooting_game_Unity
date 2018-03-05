@@ -8,15 +8,28 @@ public class SettingManager : MonoBehaviour {
 
     public GameObject mainMenuHolder;
     public GameObject optionMenuHolder;
+    public GameObject musicManagerHolder;
 
     public int[] howManyPlayerLife;
     public Toggle[] playerLife;
+    public Toggle screenResolutionToggle;
+    public int screenWidth;
+    
+    //public bool isFullScreen;
+    //public bool isWindowScreen;
+    
+    int activeScreenResIndex;
 
     int life;
 
     void Start()
     {
-        life = 
+
+    }
+
+    void Update()
+    {
+        
     }
 
     public void Play()
@@ -41,14 +54,20 @@ public class SettingManager : MonoBehaviour {
         optionMenuHolder.SetActive(false);
     }
 
-	public void SetScreenResolution(bool isWindowScreen)
+	public void SetScreenResolution()
     {
-
+        if (screenResolutionToggle.isOn)
+        {
+            float aspectRatio = 16 / 9f;
+            Screen.SetResolution(screenWidth, (int)(screenWidth / aspectRatio), false);
+        }
     }
 
-    public void SetFullScreen(bool isFullscreen)
+    public void SetFullScreen()
     {
-
+        Resolution[] allResolutions = Screen.resolutions;
+        Resolution maxResolution = allResolutions[allResolutions.Length - 1];
+        Screen.SetResolution(maxResolution.width, maxResolution.height, true);
     }
 
     public void SetPlayerLife(int i)
@@ -59,12 +78,22 @@ public class SettingManager : MonoBehaviour {
         }
     }
 
-    public void SetMusicVolume(bool isMusicOn)
+    public void SetMusicVolumeOn()
+    {
+        musicManagerHolder.GetComponent<AudioSource>().volume = 1.0f;
+    }
+
+    public void SetMusicVolumeOff()
+    {
+        musicManagerHolder.GetComponent<AudioSource>().volume = 0.0f;
+    }
+
+    public void SetSystemSoundVolumeOn()
     {
 
     }
-
-    public void SetSystemSoundVolume(bool isSoundOn)
+    
+    public void SetSystemSoundVolumeOff()
     {
 
     }
