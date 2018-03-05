@@ -2,11 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour {
 
     public GameObject mainMenuHolder;
     public GameObject optionMenuHolder;
+
+    public int[] howManyPlayerLife;
+    public Toggle[] playerLife;
+
+    int life;
+
+    void Start()
+    {
+        life = 
+    }
 
     public void Play()
     {
@@ -30,7 +41,7 @@ public class SettingManager : MonoBehaviour {
         optionMenuHolder.SetActive(false);
     }
 
-	public void SetScreenResolution(int i)
+	public void SetScreenResolution(bool isWindowScreen)
     {
 
     }
@@ -40,7 +51,20 @@ public class SettingManager : MonoBehaviour {
 
     }
 
-    public void SetMusicVolume()
+    public void SetPlayerLife(int i)
+    {
+        if (playerLife[i].isOn)
+        {
+            
+        }
+    }
+
+    public void SetMusicVolume(bool isMusicOn)
+    {
+
+    }
+
+    public void SetSystemSoundVolume(bool isSoundOn)
     {
 
     }
