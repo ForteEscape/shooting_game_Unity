@@ -51,9 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Btn_Option.cs" />
-     <Compile Include="Assets\Btn_ReturnHome.cs" />
-     <Compile Include="Assets\Btn_Start.cs" />
      <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
      <Compile Include="Assets\Scripts\inGame\Bullet.cs" />
      <Compile Include="Assets\Scripts\inGame\CameraFollow.cs" />
@@ -66,8 +63,6 @@
      <Compile Include="Assets\Scripts\inGame\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\inGame\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\inGame\PlayerShoot.cs" />
-     <Compile Include="Assets\Scripts\UI\Btn_Quit.cs" />
-     <Compile Include="Assets\Scripts\UI\Btn_Setting.cs" />
      <Compile Include="Assets\Scripts\UI\SettingManager.cs" />
      <Compile Include="Assets\toggle_spriteChange.cs" />
  <Reference Include="UnityEngine.UI">
