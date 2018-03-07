@@ -13,6 +13,11 @@ public class PlayerHit : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
+        if(other.gameObject.tag.Equals("Bullet_E"))
+        {
+            Destroy(this.gameObject);
+        }
+
         if (other.gameObject.tag.Equals("Item_power"))
         {
             GameObject.Find("PlayerManager").GetComponent<PlayerManager>().bulletPower += 2;

@@ -14,6 +14,7 @@ TagManager:
   - PlayerManager
   - Btn_Setting
   - Bullet_E
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -24,8 +25,8 @@ TagManager:
   - 
   - 
   - enemy
-  - 
-  - 
+  - Bullet_E
+  - PlayerBullet
   - 
   - 
   - 

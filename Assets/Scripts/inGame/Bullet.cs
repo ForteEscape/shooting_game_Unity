@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag.Equals("enemy"))
+        if (other.tag.Equals("enemy") || other.tag.Equals("Boss"))
         {
             Destroy(this.gameObject);
         }

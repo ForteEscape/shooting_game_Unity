@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BossHit.cs" />
+     <Compile Include="Assets\ObjectRoatationAround.cs" />
      <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
      <Compile Include="Assets\Scripts\inGame\BossSpell.cs" />
      <Compile Include="Assets\Scripts\inGame\Bullet.cs" />
@@ -150,6 +152,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/sehunKim/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{67E3FC58-6A43-6AD2-A659-74C0EB07BE15}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
