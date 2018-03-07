@@ -13,6 +13,7 @@ TagManager:
   - item_Life
   - PlayerManager
   - Btn_Setting
+  - Bullet_E
   layers:
   - Default
   - TransparentFX
