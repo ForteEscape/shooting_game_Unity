@@ -51,26 +51,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BossHit.cs" />
-     <Compile Include="Assets\bossTest.cs" />
-     <Compile Include="Assets\Bullet_E.cs" />
-     <Compile Include="Assets\GrazeHit.cs" />
-     <Compile Include="Assets\ObjectRoatationAround.cs" />
      <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
+     <Compile Include="Assets\Scripts\inGame\BossHit.cs" />
      <Compile Include="Assets\Scripts\inGame\BossSpell.cs" />
+     <Compile Include="Assets\Scripts\inGame\bossTest.cs" />
      <Compile Include="Assets\Scripts\inGame\Bullet.cs" />
+     <Compile Include="Assets\Scripts\inGame\Bullet_E.cs" />
      <Compile Include="Assets\Scripts\inGame\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\inGame\Enemy.cs" />
      <Compile Include="Assets\Scripts\inGame\Enemy_Spqwn.cs" />
      <Compile Include="Assets\Scripts\inGame\EnemyHP.cs" />
      <Compile Include="Assets\Scripts\inGame\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\inGame\GrazeHit.cs" />
      <Compile Include="Assets\Scripts\inGame\item.cs" />
+     <Compile Include="Assets\Scripts\inGame\ObjectRoatationAround.cs" />
      <Compile Include="Assets\Scripts\inGame\PlaneControll.cs" />
      <Compile Include="Assets\Scripts\inGame\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\inGame\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\inGame\PlayerShoot.cs" />
      <Compile Include="Assets\Scripts\UI\SettingManager.cs" />
-     <Compile Include="Assets\toggle_spriteChange.cs" />
+     <Compile Include="Assets\Scripts\UI\toggle_spriteChange.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

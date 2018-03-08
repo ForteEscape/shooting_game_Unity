@@ -1281,12 +1281,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1331649307}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69c05b2b5cfd6394faf1929ba3e16487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShotPerOnce: 10
+  ShotPerOnce: 60
   boss: {fileID: 1331649307}
   bullet: {fileID: 1834575800}
   speed: 4500
@@ -1353,15 +1353,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1331649307}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cb427426960fcc46aec94163b7918d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  shotPerOnce: 0
-  bulletSpeed: 0
+  ShotPerOnce: 60
+  boss: {fileID: 786047861}
+  bullet: {fileID: 1834575800}
+  speed: 4500
   bulletCoolTime: 1
+  testindex_Y: 1
+  testindex_X: 1
 --- !u!1 &1523456690
 GameObject:
   m_ObjectHideFlags: 0
