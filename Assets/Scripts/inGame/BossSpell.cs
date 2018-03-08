@@ -18,7 +18,7 @@ public class BossSpell : MonoBehaviour {
         {
             for (int i = 0; i < ShotPerOnce; i++)
             {
-                Debug.Log(i);
+                //Debug.Log(i);
                 GameObject obj;
 
                 obj = (GameObject)Instantiate(bullet, boss.transform.position, Quaternion.identity);

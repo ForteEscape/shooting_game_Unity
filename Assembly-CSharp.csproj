@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BossHit.cs" />
+     <Compile Include="Assets\bossTest.cs" />
+     <Compile Include="Assets\Bullet_E.cs" />
+     <Compile Include="Assets\GrazeHit.cs" />
      <Compile Include="Assets\ObjectRoatationAround.cs" />
      <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
      <Compile Include="Assets\Scripts\inGame\BossSpell.cs" />

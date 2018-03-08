@@ -16,6 +16,7 @@ public class PlayerHit : MonoBehaviour {
         if(other.gameObject.tag.Equals("Bullet_E"))
         {
             Destroy(this.gameObject);
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag.Equals("Item_power"))
