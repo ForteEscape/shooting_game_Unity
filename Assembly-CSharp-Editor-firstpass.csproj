@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FEB0795E-33A9-9E76-D0FD-E0E43D196D96}</ProjectGuid>
+    <ProjectGuid>{FE7146E2-5492-70DC-C00B-8378834FA287}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -51,28 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\inGame\Background_scroll.cs" />
-     <Compile Include="Assets\Scripts\inGame\Boss1.cs" />
-     <Compile Include="Assets\Scripts\inGame\BossData.cs" />
-     <Compile Include="Assets\Scripts\inGame\BossHit.cs" />
-     <Compile Include="Assets\Scripts\inGame\BossSpell.cs" />
-     <Compile Include="Assets\Scripts\inGame\bossTest.cs" />
-     <Compile Include="Assets\Scripts\inGame\Bullet.cs" />
-     <Compile Include="Assets\Scripts\inGame\Bullet_E.cs" />
-     <Compile Include="Assets\Scripts\inGame\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\inGame\Enemy.cs" />
-     <Compile Include="Assets\Scripts\inGame\Enemy_Spqwn.cs" />
-     <Compile Include="Assets\Scripts\inGame\EnemyHP.cs" />
-     <Compile Include="Assets\Scripts\inGame\EnemyMove.cs" />
-     <Compile Include="Assets\Scripts\inGame\GrazeHit.cs" />
-     <Compile Include="Assets\Scripts\inGame\item.cs" />
-     <Compile Include="Assets\Scripts\inGame\ObjectRoatationAround.cs" />
-     <Compile Include="Assets\Scripts\inGame\PlaneControll.cs" />
-     <Compile Include="Assets\Scripts\inGame\PlayerHit.cs" />
-     <Compile Include="Assets\Scripts\inGame\PlayerManager.cs" />
-     <Compile Include="Assets\Scripts\inGame\PlayerShoot.cs" />
-     <Compile Include="Assets\Scripts\UI\SettingManager.cs" />
-     <Compile Include="Assets\Scripts\UI\toggle_spriteChange.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKControllerEditor.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKDanmakuEditorX.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKMenu.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKNodeEditor.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKSettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKSettingsInspector.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\DMKShooterControllerInspector.cs" />
+     <Compile Include="Assets\Plugins\DanmakuX\DanmakuX\Editor\ShowBuildinResources.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

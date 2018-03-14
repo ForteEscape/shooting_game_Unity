@@ -5,16 +5,12 @@ using UnityEngine;
 public class BossHit : MonoBehaviour {
     public int bossHP;
     int playerPower;
+
 	// Use this for initialization
 	void Start () {
         playerPower = GameObject.Find("PlayerManager").GetComponent<PlayerManager>().bulletPower;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag.Equals("Bullet"))

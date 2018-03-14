@@ -542,7 +542,9 @@ GameObject:
   - component: {fileID: 786047863}
   - component: {fileID: 786047865}
   - component: {fileID: 786047862}
-  m_Layer: 0
+  - component: {fileID: 786047866}
+  - component: {fileID: 786047867}
+  m_Layer: 8
   m_Name: boss
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -555,7 +557,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 786047861}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b23c4412df9a784487a84bac17bff61, type: 3}
   m_Name: 
@@ -644,6 +646,45 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.72}
   m_EdgeRadius: 0
+--- !u!114 &786047866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786047861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf846ad52b05bbf4b856ed6615f96464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossPatern1HP: 200
+  bossPatern2HP: 100
+  bossPatern3HP: 30
+  shot: 60
+  bulletSpeed: 0.5
+  shotAngle: 0.05
+  shotAngleRate: 0.0001
+  bullet: {fileID: 1834575800}
+  boss1: {fileID: 786047861}
+  player: {fileID: 820340662}
+  changeValueCos: 2
+  changeValueSin: 2
+--- !u!114 &786047867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786047861}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c05b2b5cfd6394faf1929ba3e16487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotPerOnce: 60
+  boss: {fileID: 786047861}
+  bullet: {fileID: 1834575800}
+  speed: 0.5
+  bulletCoolTime: 1
 --- !u!1001 &798057984
 Prefab:
   m_ObjectHideFlags: 0
@@ -700,7 +741,7 @@ Prefab:
     - target: {fileID: 50244432501814064, guid: f18142fa5e1dff24f855c7c98f10b987,
         type: 2}
       propertyPath: m_AngularDrag
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 50244432501814064, guid: f18142fa5e1dff24f855c7c98f10b987,
         type: 2}
@@ -736,6 +777,16 @@ Prefab:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 50244432501814064, guid: f18142fa5e1dff24f855c7c98f10b987,
+        type: 2}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50244432501814064, guid: f18142fa5e1dff24f855c7c98f10b987,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.0001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f18142fa5e1dff24f855c7c98f10b987, type: 2}
   m_IsPrefabParent: 0
@@ -754,7 +805,7 @@ GameObject:
   - component: {fileID: 820340666}
   - component: {fileID: 820340668}
   - component: {fileID: 820340669}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -1240,6 +1291,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1242637308572290, guid: 3833ab529a3edee4abe95e77d401544e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3833ab529a3edee4abe95e77d401544e, type: 2}
   m_IsPrefabParent: 0
@@ -1255,7 +1310,7 @@ GameObject:
   - component: {fileID: 1331649309}
   - component: {fileID: 1331649311}
   - component: {fileID: 1331649312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bullet_Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,18 +1408,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1331649307}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cb427426960fcc46aec94163b7918d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShotPerOnce: 60
+  ShotPerOnce: 50
   boss: {fileID: 786047861}
   bullet: {fileID: 1834575800}
   speed: 4500
   bulletCoolTime: 1
-  testindex_Y: 1
-  testindex_X: 1
+  testindex_Y: -1
+  testindex_X: -1
 --- !u!1 &1523456690
 GameObject:
   m_ObjectHideFlags: 0
